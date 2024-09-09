@@ -1,0 +1,15 @@
+C:\Users\Pichau\Desktop\dotNet_estudos\bin\Debug\net8.0\dotNet_estudos.exe
+C:\Users\Pichau\Desktop\dotNet_estudos\bin\Debug\net8.0\dotNet_estudos.deps.json
+C:\Users\Pichau\Desktop\dotNet_estudos\bin\Debug\net8.0\dotNet_estudos.runtimeconfig.json
+C:\Users\Pichau\Desktop\dotNet_estudos\bin\Debug\net8.0\dotNet_estudos.dll
+C:\Users\Pichau\Desktop\dotNet_estudos\bin\Debug\net8.0\dotNet_estudos.pdb
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.sourcelink.json
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.dll
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\refint\dotNet_estudos.dll
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.pdb
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\dotNet_estudos.genruntimeconfig.cache
+C:\Users\Pichau\Desktop\dotNet_estudos\obj\Debug\net8.0\ref\dotNet_estudos.dll
