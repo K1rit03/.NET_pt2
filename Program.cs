@@ -1,12 +1,235 @@
-﻿    // using dotNet_estudos.Models;
+﻿     using dotNet_estudos.Models;
+
+    // bool choveu = false;
+    // bool estaTarde = false;
+
+    // if(!choveu && !estaTarde )
+    // {
+    //     Console.WriteLine("Vou pedalar");
+    // }
+    // else{
+    //     Console.WriteLine("Vou pedalar outro dia");
+    // }
+    
+    
+    
+    
+    
+    
+    
+    
+    // bool  presençaMin = false;
+    // double media = 7.5;
+    
+    // if (presençaMin && media >= 7){
+    //     Console.WriteLine("Aluno Aprovado");
+    // }
+    // else{
+    //     Console.WriteLine("Aluno reprovado");
+    // }
+    
+    
+    
+    
+    
+    
+     // bool maiorDeIdade = false;
+    // bool permissao = false;
+
+    // if (maiorDeIdade || permissao){
+    //     Console.WriteLine("entrada liberada");
+        
+    // }
+    // else{
+    //     Console.WriteLine("Entrada não liberada");
+    // }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    // Console.WriteLine("Digite uma letra");
+    // string letra = Console.ReadLine();
+
+    
+    // switch (letra){
+    //     case "a":
+    //     case "e":
+    //     case "i":
+    //     case "o":
+    //     case "u":
+    //         Console.WriteLine("vogal");
+    //         break;
+        
+    //     default:
+    //         Console.WriteLine("Não é uma vogal");
+    //         break;
+    // }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // if (letra == "a" ||
+    //     letra == "e" ||
+    //     letra == "i" ||
+    //     letra == "o" ||
+    //     letra == "u"){
+    //         Console.WriteLine("É uma vogal");
+    //     }
+    // else
+    // {
+    //     Console.WriteLine("Não é uma vogal");
+    // }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    // int quantidade = 3;
+    // int quantidadeCompra = 0;
+    // bool quantidadeCompra > 0 && quantidade >= quantidadeCompra;
+    
+    
+    // Console.WriteLine($"quantidade em estoque: {quantidade}");
+    // Console.WriteLine($"Quantidade da compra: {quantidadeCompra}");
+    // Console.WriteLine($"É possivel realizar a venda? {(possivelVenda)}");
 
 
-    // Pessoa pessoa1 = new Pessoa();
+    // if (quantidadeCompra == 0){
+    //     Console.WriteLine("Venda invalida");
+    // }
 
-    // pessoa1.Nome = "Thiago";
-    // pessoa1.Idade = 18;
-    // pessoa1.Apresentar();
 
-    DateTime dataAtual1 = DateTime.Now;
 
-    Console.WriteLine(dataAtual1);
+    // else if (possivelVenda)
+    // {
+    //     Console.WriteLine("venda realizada");
+    // }else{
+    //     Console.WriteLine("Quantidade suficiente");
+    // }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // string a = "15-";
+    // int b = 0;
+    // int.TryParse(a,out b);
+    // Console.WriteLine(b);
+    // Console.WriteLine("Conversão realizada com sucesso");
+   
+   
+   
+   
+   
+   
+   
+    // int a = 5;
+    // double b = a;
+    // Console.WriteLine(b);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // int inteiro = 5;
+    // string a = inteiro.ToString();
+    
+    // Console.WriteLine(a);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // int a = 10;
+    // int b = 20;
+
+    // int c = a + b;
+    // c += 5;
+
+    // Console.WriteLine(c);
+
+
+
+
+
+
+
+
+
+    // // Pessoa pessoa1 = new Pessoa();
+
+    // // pessoa1.Nome = "Thiago";
+    // // pessoa1.Idade = 18;
+    // // pessoa1.Apresentar();
+
+    // DateTime dataAtual1 = DateTime.Now;
+
+    // Console.WriteLine(dataAtual1);
+    
