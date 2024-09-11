@@ -1,4 +1,53 @@
-﻿     using dotNet_estudos.Models;
+﻿    
+    using dotNet_estudos.Models;
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     Calculadora calc = new Calculadora();
+
+    // calc.Somar(10,5);
+    // calc.Dividir(20,4);
+    // calc.Potencia(3,3);
+    // calc.Seno(30);
+    // calc.Coseno(30);
+    // calc.Tangente(30);
+    
+    // int numero = 10;
+    // int numero2 = 20;
+    // Console.WriteLine(numero);
+    // Console.WriteLine("Incremetnado o 10");
+    // numero ++;
+    // Console.WriteLine(numero);
+
+    // Console.WriteLine(numero2);
+    // Console.WriteLine("Decrementando o 10");
+    // numero2 --;
+    // Console.WriteLine(numero2);
+    calc.RaizQuadrada(9);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // bool choveu = false;
     // bool estaTarde = false;
