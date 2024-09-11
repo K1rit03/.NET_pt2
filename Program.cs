@@ -1,60 +1,21 @@
 ﻿    
  using dotNet_estudos.Models;
-   
-
-
-
-string opcao;
-bool exibirMenu = true;
 
 
 
 
 
+//EXEMPLO ARRAY
+int[] arrayInteiros = new int[3];
 
 
-while(exibirMenu)
-{
-    Console.Clear();
-    Console.WriteLine("Digite sua opção:");
-    Console.WriteLine("1 - Cadastrar cliente:");
-    Console.WriteLine("2 - Buscar cliente:");
-    Console.WriteLine("3 - Apagar cliente:");
-    Console.WriteLine("4 - Encerrar:");
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
 
-    opcao = Console.ReadLine();
 
-    switch(opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastro de cliente");
-            Console.WriteLine("Pressione qualquer tecla para continuar...");
-            Console.ReadKey();  // Pausa para o usuário ver a mensagem
-            break;
-
-        case "2":
-            Console.WriteLine("Busca de cliente");
-            Console.WriteLine("Pressione qualquer tecla para continuar...");
-            Console.ReadKey();
-            break;  
-
-        case "3":
-            Console.WriteLine("Apagar cliente");
-            Console.WriteLine("Pressione qualquer tecla para continuar...");
-            Console.ReadKey();
-            break; 
-
-        case "4":
-            Console.WriteLine("Encerrar");
-            Environment.Exit(0);
-            break; 
-
-        default:
-            Console.WriteLine("Opção inválida");
-            Console.WriteLine("Pressione qualquer tecla para continuar...");
-            Console.ReadKey();
-            break;
-    }
+for (int contador = 0; contador < arrayInteiros.Length; contador++){
+    Console.WriteLine($"Posição N{contador} - {arrayInteiros[contador]}");
 }
 
 
@@ -75,6 +36,84 @@ while(exibirMenu)
 
 
 
+
+
+
+
+
+//EXERCICIO SISTEMA CADASTRO
+
+// string opcao;
+// bool exibirMenu = true;
+
+
+
+
+
+
+
+// while(exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("Digite sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente:");
+//     Console.WriteLine("2 - Buscar cliente:");
+//     Console.WriteLine("3 - Apagar cliente:");
+//     Console.WriteLine("4 - Encerrar:");
+
+//     opcao = Console.ReadLine();
+
+//     switch(opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de cliente");
+//             Console.WriteLine("Pressione qualquer tecla para continuar...");
+//             Console.ReadKey();  // Pausa para o usuário ver a mensagem
+//             break;
+
+//         case "2":
+//             Console.WriteLine("Busca de cliente");
+//             Console.WriteLine("Pressione qualquer tecla para continuar...");
+//             Console.ReadKey();
+//             break;  
+
+//         case "3":
+//             Console.WriteLine("Apagar cliente");
+//             Console.WriteLine("Pressione qualquer tecla para continuar...");
+//             Console.ReadKey();
+//             break; 
+
+//         case "4":
+//             Console.WriteLine("Encerrar");
+//             Environment.Exit(0);
+//             break; 
+
+//         default:
+//             Console.WriteLine("Opção inválida");
+//             Console.WriteLine("Pressione qualquer tecla para continuar...");
+//             Console.ReadKey();
+//             break;
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//EXEMPLO DO WHILE
 
 
 // int soma = 0, numero = 0;
@@ -106,7 +145,7 @@ while(exibirMenu)
 
 
 
-
+//EXEMPLO WHILE
 
 // int numero = 5;
 // int contador = 0;
@@ -138,7 +177,7 @@ while(exibirMenu)
 
 
 
-
+//EXEMPLO FOR
 
 
 //    int numero = 5;
@@ -165,7 +204,7 @@ while(exibirMenu)
     
     
     
-    
+    //EXERCICIO CALCULADORA
     
     
     //  Calculadora calc = new Calculadora();
@@ -200,7 +239,7 @@ while(exibirMenu)
 
 
 
-
+//EXEMPLO IF ELSE
 
 
     // bool choveu = false;
