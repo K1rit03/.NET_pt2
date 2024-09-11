@@ -1,13 +1,126 @@
 ﻿    
-    using dotNet_estudos.Models;
+ using dotNet_estudos.Models;
    
-int numero = 5;
-int contador = 0;
 
-while (contador <= 10){
-    Console.WriteLine($"{contador + 1} execução   {numero} x {contador} = {numero * contador}");
-    contador ++;
+
+
+string opcao;
+bool exibirMenu = true;
+
+
+
+
+
+
+
+while(exibirMenu)
+{
+    Console.Clear();
+    Console.WriteLine("Digite sua opção:");
+    Console.WriteLine("1 - Cadastrar cliente:");
+    Console.WriteLine("2 - Buscar cliente:");
+    Console.WriteLine("3 - Apagar cliente:");
+    Console.WriteLine("4 - Encerrar:");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            Console.WriteLine("Pressione qualquer tecla para continuar...");
+            Console.ReadKey();  // Pausa para o usuário ver a mensagem
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            Console.WriteLine("Pressione qualquer tecla para continuar...");
+            Console.ReadKey();
+            break;  
+
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            Console.WriteLine("Pressione qualquer tecla para continuar...");
+            Console.ReadKey();
+            break; 
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0);
+            break; 
+
+        default:
+            Console.WriteLine("Opção inválida");
+            Console.WriteLine("Pressione qualquer tecla para continuar...");
+            Console.ReadKey();
+            break;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero = 0;
+
+
+// do{
+//     Console.WriteLine("Digite um numero(Digite zero para parar)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+//     soma += numero;
+// }while(numero != 0);
+
+
+// Console.WriteLine($"Total da soma dos numeros digitados é {soma}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 0;
+
+// while (contador <= 10){
+//     Console.WriteLine($"{contador + 1} execução   {numero} x {contador} = {numero * contador}");
+//     contador ++;
+
+
+//     if (contador == 6){
+//         break;
+//     }
+    
+// }
 
 
 
