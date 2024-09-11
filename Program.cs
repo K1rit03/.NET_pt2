@@ -13,11 +13,18 @@ arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 
-
+// percorrendo o array com o for
+Console.WriteLine("percorrendo array com o for");
 for (int contador = 0; contador < arrayInteiros.Length; contador++){
     Console.WriteLine($"Posição N{contador} - {arrayInteiros[contador]}");
 }
-
+Console.WriteLine("Percorrendo array usando for each");
+int contadorForEach = 0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição N: {contadorForEach} - {valor}");
+    contadorForEach++;
+}
 
 
 
