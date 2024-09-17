@@ -12,6 +12,16 @@ int[] arrayInteiros = new int[3];
 arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
+
+
+int[] arrayInteirosDobrado =  new int [arrayInteiros.Length * 2];
+Array.copy(arrayInteiros,arrayInteirosDobrado, arrayInteiros.Length);
+
+
+
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
 // percorrendo o array com o for
 Console.WriteLine("percorrendo array com o for");
@@ -25,8 +35,6 @@ foreach(int valor in arrayInteiros)
     Console.WriteLine($"Posição N: {contadorForEach} - {valor}");
     contadorForEach++;
 }
-
-
 
 
 

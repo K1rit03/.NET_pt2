@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotNet_estudos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80164be3b0326f27497a8b2dcf0321e91baec712")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+384bb5c64307e20f364364f67f563044ebc2f2ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotNet_estudos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotNet_estudos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
